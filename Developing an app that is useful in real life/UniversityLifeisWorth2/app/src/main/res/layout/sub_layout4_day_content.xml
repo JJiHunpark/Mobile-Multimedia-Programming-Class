@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:text="/"
+        android:layout_width="50px"
+        android:layout_height="20dp"
+        android:gravity="center"/>
+    <TextView
+        android:text="월"
+        style="@style/style_text_day"/>
+    <TextView
+        android:text="화"
+        style="@style/style_text_day"/>
+    <TextView
+        android:text="수"
+        style="@style/style_text_day"/>
+    <TextView
+        android:text="목"
+        style="@style/style_text_day"/>
+    <TextView
+        android:text="금"
+        style="@style/style_text_day"/>
+</merge>

@@ -1,0 +1,69 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#333333">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/listBtn"
+            android:layout_gravity="left"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:text="@string/listview_title" />
+
+        <Button
+            android:id="@+id/resetBtn"
+            android:layout_gravity="center"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:text="@string/reset_title" />
+
+        <Button
+            android:id="@+id/submitBtn"
+            android:layout_gravity="right"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:text="@string/submit_title" />
+
+    </FrameLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:text="@string/memo_title"/>
+    <ScrollView
+        android:id="@+id/memoview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+
+        <EditText
+            android:id="@+id/memo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:ems="10"
+            android:background="#00000000"
+            android:inputType="textMultiLine"
+            >
+        </EditText>
+    </ScrollView>
+</LinearLayout>

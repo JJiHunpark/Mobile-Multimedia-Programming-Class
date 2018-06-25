@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+        android:id="@+id/Monday"
+        layout="@layout/sub_layout4_widget_column"/>
+    <include
+        android:id="@+id/Tuesday"
+        layout="@layout/sub_layout4_widget_column"/>
+    <include
+        android:id="@+id/Wednesday"
+        layout="@layout/sub_layout4_widget_column"/>
+    <include
+        android:id="@+id/Thursday"
+        layout="@layout/sub_layout4_widget_column"/>
+    <include
+        android:id="@+id/Friday"
+        layout="@layout/sub_layout4_widget_column"/>
+</merge>
